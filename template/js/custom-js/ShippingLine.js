@@ -34,13 +34,12 @@ export default {
       const isWorkingDays = (shipping.posting_deadline && shipping.posting_deadline.working_days) ||
         (shipping.delivery_time && shipping.delivery_time.working_days)
       let days = shipping.posting_deadline ? shipping.posting_deadline.days : 0
-      const lesserdays = days - 2
       if (shipping.delivery_time) {
         days += shipping.delivery_time.days
       }
       days += this.productionDeadline
       if (days > 1) {
-        return ` ${lesserdays - 2} ${i18n(i19upTo)} ${days} ` +
+        return ` ${i18n(i19upTo)} ${days} ` +
           i18n(isWorkingDays ? i19workingDays : i19days).toLowerCase()
       }
       return i18n(days === 1
