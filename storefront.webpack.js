@@ -5,7 +5,7 @@ const path = require('path')
 module.exports = () => ({
   resolve: {
     alias: {
-      './html/ShippingLine.js': path.resolve(__dirname, 'template/js/custom-js/html/ShippingLine.js')
+      './js/ShippingLine.js': path.resolve(__dirname, 'template/js/custom-js/ShippingLine.js')
     }
   }
 })
