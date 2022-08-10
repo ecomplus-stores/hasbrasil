@@ -13,6 +13,7 @@
   },
   "promo": {
     "show": true,
-    "text": "Diferentes promoções ao longo do ano!"
+    "text": "Diferentes promoções ao longo do ano!",
+    "title": "Cupom Desconto"
   }
 }
