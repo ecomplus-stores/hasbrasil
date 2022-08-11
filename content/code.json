@@ -1,5 +1,5 @@
 {
-  "css": "",
+  "css": "#s-PELUCIAS {\ngrid-template-columns: repeat(auto-fit,minmax(50%,1fr)) !important;\n}",
   "html_head": "",
   "html_body": ""
 }
