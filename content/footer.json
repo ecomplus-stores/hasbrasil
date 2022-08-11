@@ -10,7 +10,7 @@
   },
   "links_2": {
     "list_categories": true,
-    "title": "Categorias",
+    "title": "Departamentos",
     "list": []
   },
   "contacts": {
@@ -36,13 +36,14 @@
     "aura": false,
     "banrisul": false,
     "elo": true,
-    "hipercard": false,
+    "hipercard": true,
     "hsbc": false,
     "bradesco": true,
     "santander": false,
     "mastercard": true,
     "citibank": false,
     "mais": false,
+    "amex": true,
     "itau": true
   },
   "credits": ""
