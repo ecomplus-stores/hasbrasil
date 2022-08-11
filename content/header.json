@@ -10,16 +10,23 @@
         "link": "/pages/sobre-nos"
       },
       {
-        "title": "Esta loja é um PWA",
-        "link": "/posts/esta-loja-e-um-pwa"
+        "title": "Contato",
+        "link": "https://hasbrasil-2068.netlify.app/pages/contato"
       }
     ],
     "phone_wpp": true,
     "socials": true
   },
   "categories_list": {
-    "featured": [],
-    "random": 7,
+    "featured": [
+      "/adesivos-decorativo-festa/?Adesivos",
+      "/brinquedos-em-belo-horizonte/?Brinquedos",
+      "/carteiras-herois-personalizada/?Carteiras",
+      "/eletronicos-smartphone-fone-teclado/?Eletrônicos",
+      "/quebra-cabeca-e-miniatura/?Miniaturas",
+      "/loja-pelucia-belo-horizonte/?Pelúcias"
+    ],
+    "random": 0,
     "full_width": true
   },
   "desktop_megamenu": true,
