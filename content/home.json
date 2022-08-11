@@ -20,7 +20,10 @@
       "type": "offers-timer",
       "max_hours": 24,
       "start": "2022-08-11T19:33:44.941Z",
-      "end": "2022-08-11T19:33:44.999Z"
+      "end": "2022-08-14T19:33:44.999Z",
+      "offers": [
+        "62e47b9deb859112169d6913"
+      ]
     },
     {
       "type": "collection-shelf",
