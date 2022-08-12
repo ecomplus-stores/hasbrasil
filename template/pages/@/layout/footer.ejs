@@ -88,7 +88,9 @@ const themeCustom = _.settings.theme.custom || ''
           <div class="collapse" id="footer-pages">
             <% if (footer.links_1.list_pages) { %>
               <ul class="footer__links">
-                <% (_.cms('pages') || []).forEach(slug => { %>
+                <% const pageLinks = _.cms('pages') || []
+                const linkOnSort = _.lodash.sortBy(pageLinks, ['title'])
+                linkOnSort.forEach(slug => { %>
                   <% const { title } = _.cms(`pages/${slug}`) %>
                   <li>
                     <i class="i-chevron-right"></i>
@@ -129,7 +131,8 @@ const themeCustom = _.settings.theme.custom || ''
           <div class="collapse" id="footer-categories">
             <% if (footer.links_2.list_categories) { %>
               <ul class="footer__links">
-                <% _.categories.forEach(({ name, slug, parent }) => { %>
+                <% const categoriesSorted = _.lodash.sortBy(_.categories, ['name'])
+                categoriesSorted.forEach(({ name, slug, parent }) => { %>
                   <% if (!parent) { %>
                     <li>
                       <i class="i-chevron-right"></i>
