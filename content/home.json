@@ -17,6 +17,10 @@
       ]
     },
     {
+      "type": "info-bar",
+      "enabled": true
+    },
+    {
       "type": "offers-timer",
       "max_hours": 24,
       "start": "2022-08-11T19:39:02.120Z",
