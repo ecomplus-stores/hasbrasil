@@ -4,7 +4,7 @@
   "primary_color": "#235ea6",
   "theme": {
     "bootswatch": "sketchy",
-    "custom": "niche-baby"
+    "custom": "_"
   },
   "bg_color": "#ffffff",
   "repository": "ecomplus-stores/hasbrasil",

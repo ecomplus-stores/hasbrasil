@@ -26,7 +26,7 @@
                   class="product__picture"
                   <% if (width) { %>
                     style="max-width: <%= width %>px"
-                  <% } %>  
+                  <% } %>
                 >
                   <picture
                     <% if (width && height) { %>
@@ -61,6 +61,30 @@
             <% } %>
           <% } %>
           <!-- Custom additional code on bottom of images gallery -->
+          <% if (_.state.body_html) { %>
+            <section id="product-description" class="product-description my-4 my-lg-5">
+              <div class="container">
+                <p class="lead">
+                  <a href="#description" name="description">#</a>
+                  <%= _.dictionary('productDescription') %>
+                </p>
+                <div class="html-clearfix">
+                  <%- _.state.body_html.replace(
+                    /<img ([^/>]+)?src=['"]([^'"]+)['"]([^/>]+)?\/?>/g,
+                    '<img class="lozad" data-src="$2" $1 $3>'
+                  ).replace(
+                    /<img class="lozad" data-src="([^'"]+)"([^>]+)class=['"]([^'"]+)['"]([^/>]+)?>/g,
+                    '<img class="lozad $3" data-src="$1" $2 $4>'
+                  ) %>
+                </div>
+              </div>
+            </section>
+          <% } %>
+
+          <%- await include('@/helpers/widgets-append', {
+            _, opt: {}, field: 'productDescriptionAppend'
+          }) %>
+
         </div>
 
         <div class="col">
@@ -87,7 +111,7 @@
                   <% if (opt.size_guide && opt.size_guide.image) { %>
                     <% const sizeGuideTitle = opt.size_guide.title || _.dictionary('sizeGuide') %>
                     <div class="mb-3">
-                      <a 
+                      <a
                         href="javascript:;"
                         data-toggle="modal"
                         data-target="#modal-size-guide"
@@ -95,11 +119,11 @@
                         <i class="i-ruler mr-1"></i> <%= sizeGuideTitle %>
                       </a>
                     </div>
-                    <div 
-                      class="modal modal-center fade" 
-                      id="modal-size-guide" 
-                      tabindex="-1" 
-                      style="display: none;" 
+                    <div
+                      class="modal modal-center fade"
+                      id="modal-size-guide"
+                      tabindex="-1"
+                      style="display: none;"
                       aria-hidden="true"
                     >
                       <div class="modal-dialog">
@@ -113,9 +137,9 @@
                             </button>
                           </div>
                           <div class="modal-body">
-                            <img 
-                              class="img-fluid" 
-                              src="<%= opt.size_guide.image %>" 
+                            <img
+                              class="img-fluid"
+                              src="<%= opt.size_guide.image %>"
                               alt="<%= sizeGuideTitle %>"
                             >
                           </div>
@@ -143,7 +167,7 @@
                     <i class="i-shopping-bag mr-1"></i>
                     <% if (_.state.kit_composition && _.state.kit_composition.length) { %>
                       <%= _.dictionary('buyKit') %>
-                    <% } else { %> 
+                    <% } else { %>
                       <% let buyText %>
                       <% if (Array.isArray(_.widgets)) { %>
                         <% const productWidget = _.widgets.find(item => item.pkg === '@ecomplus/widget-product') %>
