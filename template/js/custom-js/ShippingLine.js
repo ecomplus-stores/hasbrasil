@@ -39,7 +39,7 @@ export default {
       }
       days += this.productionDeadline
       if (days > 1) {
-        `${i18n(i19upTo)} ${days} ` +
+        return `${i18n(i19upTo)} ${days} ` +
         // return `De ${days - 3} a ${days} ` +
           i18n(isWorkingDays ? i19workingDays : i19days).toLowerCase()
       }
