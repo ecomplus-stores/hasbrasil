@@ -52,7 +52,7 @@
       "shuffle": true,
       "limit": 24,
       "page": 2,
-      "sort": "news",
+      "sort": "offers",
       "headless": false,
       "title": ""
     },
