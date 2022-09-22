@@ -17,6 +17,10 @@
       "title": "Produtos relacionados à sua busca"
     },
     {
+      "type": "recommended-products",
+      "title": "Produtos recomendados para você"
+    },
+    {
       "type": "product-description",
       "enabled": true
     },
