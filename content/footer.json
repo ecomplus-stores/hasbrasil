@@ -23,7 +23,8 @@
   "stamps": [
     {
       "src": "/img/uploads/ssl-safe.png",
-      "alt": "Secure connection"
+      "alt": "Secure connection",
+      "link": "http://www.google.com/safebrowsing/diagnostic?site=www.hasbrasil.com.br"
     },
     {
       "src": "https://ecoms1-nyc3.nyc3.cdn.digitaloceanspaces.com/51296/imgs/normal/@v3/1661548091905-icone_pix.png.webp"
