@@ -36,7 +36,8 @@
     },
     {
       "src": "https://wdmolas.com.br/images/google-safe-browsing.png",
-      "alt": "http://www.google.com/safebrowsing/diagnostic?site=www.hasbrasil.com.br"
+      "alt": "",
+      "link": "http://www.google.com/safebrowsing/diagnostic?site=www.hasbrasil.com.br"
     }
   ],
   "payment_methods": {
