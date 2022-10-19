@@ -38,6 +38,15 @@
       "title": "Ofertas   :)"
     },
     {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 12,
+      "page": 3,
+      "collection_id": "62e477b6eb859112169d5fe9:categories:GIGANTES:/loja-pelucia-gigante-belo-horizonte/",
+      "sort": "views",
+      "title": "Coleção de Pelúcias Gigantes  :D"
+    },
+    {
       "type": "dynamic-showcase",
       "load_more": false,
       "sort": "offers"
