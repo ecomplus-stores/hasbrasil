@@ -1,25 +1,25 @@
 {
   "shipping": {
     "show": true,
-    "text": "FRETE  GRATIS  para  várias  localidades",
+    "text": "FRETE  GRATIS  para  várias  localidades",
     "title": "",
     "link": "https://hasbrasil.netlify.app/pages/entrega"
   },
   "installments": {
     "show": true,
-    "text": "Parcele  sem  juros  ou  ganhe  descontos  à  vista",
+    "text": "Parcele  sem  juros  ou  ganhe  descontos  à  vista",
     "title": "",
     "link": "https://hasbrasil.netlify.app/pages/pagamentos"
   },
   "exchange": {
     "show": true,
-    "text": "FABRICAMOS  SEU  PRODUTO",
+    "text": "FABRICAMOS  SEU  PRODUTO",
     "title": "",
     "link": "https://wa.me/553125167678?text=Ola,%20gostaria%20de%20atendimento"
   },
   "promo": {
     "show": true,
-    "text": "7%  OFF  à  vista",
+    "text": "7%  OFF  à  vista",
     "title": "",
     "link": "https://hasbrasil.netlify.app/pages/pagamentos"
   }
