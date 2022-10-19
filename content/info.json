@@ -1,19 +1,23 @@
 {
   "shipping": {
     "show": true,
-    "text": "Entregamos para todo o Brasil"
+    "text": "em compras acima de R$ 180,00*",
+    "title": "FRETE GRATIS"
   },
   "installments": {
     "show": true,
-    "text": "Parcele sem juros"
+    "text": "Parcele sem juros ou ganhe descontos à vista",
+    "title": "PAGUE COMO QUISER"
   },
   "exchange": {
     "show": true,
-    "text": "Não gostou? A primeira troca é gratuita"
+    "text": "Clique aqui e vamos lhe ajudar",
+    "title": "FABRICAMOS SEU PRODUTO",
+    "link": "https://wa.me/553125167678?text=Ola,%20gostaria%20de%20atendimento"
   },
   "promo": {
     "show": true,
-    "text": "Diferentes promoções ao longo do ano!",
-    "title": ""
+    "text": "à vista nos pagamentos via PIX",
+    "title": "7% OFF EM TODA A LOJA"
   }
 }
