@@ -1,23 +1,25 @@
 {
   "shipping": {
     "show": true,
-    "text": "em compras acima de R$ 180,00*",
-    "title": "FRETE GRATIS"
+    "text": "FRETE GRATIS para várias localidades",
+    "title": "",
+    "link": "https://hasbrasil.netlify.app/pages/entrega"
   },
   "installments": {
     "show": true,
     "text": "Parcele sem juros ou ganhe descontos à vista",
-    "title": "PAGUE COMO QUISER"
+    "title": "",
+    "link": "https://hasbrasil.netlify.app/pages/pagamentos"
   },
   "exchange": {
     "show": true,
-    "text": "Clique aqui e vamos lhe ajudar",
+    "text": "",
     "title": "FABRICAMOS SEU PRODUTO",
     "link": "https://wa.me/553125167678?text=Ola,%20gostaria%20de%20atendimento"
   },
   "promo": {
     "show": true,
-    "text": "à vista nos pagamentos via PIX",
-    "title": "7% OFF EM TODA A LOJA"
+    "text": "",
+    "title": "7% OFF EM qualquer produto"
   }
 }
