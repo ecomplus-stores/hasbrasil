@@ -13,13 +13,14 @@
   },
   "exchange": {
     "show": true,
-    "text": "",
-    "title": "FABRICAMOS  SEU  PRODUTO",
+    "text": "FABRICAMOS  SEU  PRODUTO",
+    "title": "",
     "link": "https://wa.me/553125167678?text=Ola,%20gostaria%20de%20atendimento"
   },
   "promo": {
     "show": true,
-    "text": "",
-    "title": "7%  OFF  à  vista"
+    "text": "7%  OFF  à  vista",
+    "title": "",
+    "link": "https://hasbrasil.netlify.app/pages/pagamentos"
   }
 }
