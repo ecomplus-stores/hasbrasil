@@ -1,7 +1,7 @@
 {
   "marketing_stripe": {
-    "text": "Aproveite nossos descontos de até 40%!",
-    "link": "/promotion"
+    "text": "GANHE 7% OFF EM QUALQUER PRODUTO PAGANDO VIA PIX ",
+    "link": ""
   },
   "contacts_stripe": {
     "pages": [
@@ -31,5 +31,7 @@
     "full_width": true
   },
   "desktop_megamenu": true,
-  "search_input": true
+  "search_input": true,
+  "alphabetical_order_submenu": true,
+  "full_width_submenu": true
 }
