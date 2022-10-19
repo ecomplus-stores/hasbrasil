@@ -1,7 +1,8 @@
 {
   "marketing_stripe": {
     "text": "GANHE 7% OFF EM QUALQUER PRODUTO PAGANDO VIA PIX ",
-    "link": ""
+    "link": "",
+    "background": "#2100cc"
   },
   "contacts_stripe": {
     "pages": [
