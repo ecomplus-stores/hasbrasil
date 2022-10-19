@@ -65,9 +65,23 @@
       "title": "$  Carteiras  $"
     },
     {
-      "type": "dynamic-showcase",
-      "load_more": false,
-      "sort": "offers"
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 24,
+      "page": 6,
+      "collection_id": "62e477aaeb859112169d5fce:categories:Quebra-cabeças:/quebra-cabeca-e-miniatura/",
+      "sort": "views",
+      "title": "Papercraft  o.o",
+      "headless": true
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 24,
+      "page": 6,
+      "collection_id": "62e477baeb859112169d5ff6:categories:Herois e Personagens:/pelucia-personagem-desenho-super-heroi/",
+      "sort": "views",
+      "title": "Para colecionar  *.*"
     },
     {
       "type": "info-bar",
