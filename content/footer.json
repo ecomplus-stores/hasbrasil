@@ -22,15 +22,6 @@
   },
   "stamps": [
     {
-      "src": "/img/uploads/ssl-safe.png",
-      "alt": "Secure connection",
-      "link": "http://www.google.com/safebrowsing/diagnostic?site=www.hasbrasil.com.br"
-    },
-    {
-      "src": "https://ecoms1-nyc3.nyc3.cdn.digitaloceanspaces.com/51296/imgs/normal/@v3/1661548091905-icone_pix.png.webp",
-      "link": "https://hasbrasil.netlify.app/pages/pagamentos"
-    },
-    {
       "src": "https://www.quartinhos.com.br/wp-content/uploads/2021/12/reclame_aqui_quartinhos-300x134.png",
       "alt": "",
       "link": "https://www.reclameaqui.com.br/empresa/has-brasil/?utm_source=referral&utm_medium=embbed&utm_campaign=reputacao&utm_term=horizontal"
@@ -38,6 +29,15 @@
     {
       "src": "https://wdmolas.com.br/images/google-safe-browsing.png",
       "alt": "",
+      "link": "http://www.google.com/safebrowsing/diagnostic?site=www.hasbrasil.com.br"
+    },
+    {
+      "src": "https://ecoms1-nyc3.nyc3.cdn.digitaloceanspaces.com/51296/imgs/normal/@v3/1661548091905-icone_pix.png.webp",
+      "link": "https://hasbrasil.netlify.app/pages/pagamentos"
+    },
+    {
+      "src": "/img/uploads/ssl-safe.png",
+      "alt": "Secure connection",
       "link": "http://www.google.com/safebrowsing/diagnostic?site=www.hasbrasil.com.br"
     }
   ],
