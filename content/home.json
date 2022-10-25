@@ -76,6 +76,11 @@
     {
       "type": "info-bar",
       "enabled": true
+    },
+    {
+      "type": "dynamic-showcase",
+      "load_more": false,
+      "sort": "news"
     }
   ]
 }
