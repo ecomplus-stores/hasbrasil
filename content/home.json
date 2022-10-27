@@ -24,7 +24,7 @@
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 12,
-      "page": 3,
+      "page": 1,
       "collection_id": "62e477b6eb859112169d5fe9:categories:GIGANTES:/loja-pelucia-gigante-belo-horizonte/",
       "sort": "sales",
       "title": "Coleção de Pelúcias Gigantes  :D",
@@ -34,7 +34,7 @@
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 24,
-      "page": 6,
+      "page": 1,
       "sort": "news",
       "title": "Lançamentos   ;)"
     },
@@ -42,7 +42,7 @@
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 24,
-      "page": 6,
+      "page": 1,
       "sort": "offers",
       "headless": false,
       "title": "Ofertas   :)"
@@ -51,7 +51,7 @@
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 24,
-      "page": 6,
+      "page": 1,
       "collection_id": "62e477a1eb859112169d5fb8:categories:Brinquedos:/brinquedos-em-belo-horizonte/",
       "sort": "views",
       "title": "Mais comprados"
@@ -60,7 +60,7 @@
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 12,
-      "page": 3,
+      "page": 1,
       "collection_id": "62e477a8eb859112169d5fc9:categories:Carteiras:/carteiras-herois-personalizada/",
       "sort": "news",
       "title": "$  Carteiras  $"
@@ -69,7 +69,7 @@
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 24,
-      "page": 6,
+      "page": 1,
       "collection_id": "62e477baeb859112169d5ff6:categories:Herois e Personagens:/pelucia-personagem-desenho-super-heroi/",
       "sort": "views",
       "title": "Para colecionar"
