@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.c2744dea69d5407afd89c29c27bfd265.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.14c27b271a000e58eac23397b2ece253.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.e12916a45b10d07f15da339a933c6c8d.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.cfe93d1058846d3e89d2480dee2e9afe.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.46439a19b81219ff5a2289b5d6f6134d.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "hasbrasil",
+  "short_name": "Has Brasil",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Fabrica de Ursos de Pelúcias Gigantes, Almofadas Personalizadas. Aceitamos encomendas. Temos também Pelúcias de Heróis, Pelúcias de Animais, Bonecas, Jogos, Brinquedos, mochilas e carteiras, e muito mais! Atendemos em Belo Horizonte e enviamos para todo o Brasil!",
+  "background_color": "#ffffff",
+  "theme_color": "#235ea6"
+}
